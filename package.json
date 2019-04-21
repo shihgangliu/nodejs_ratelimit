@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_ratelimit_practice",
+  "version": "1.0.0",
+  "description": "Implement ratelimit by redis",
+  "main": "server.js",
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive tests/",
+    "start": "node server.js"
+  },
+  "author": "shihgangliu@gmail.com",
+  "license": "ISC"
+}
